@@ -95,6 +95,6 @@ Oxide leverages a modular architecture for optimal performance and maintainabili
 ### **Roadmap**
 v1.0.0: Initial release with core CI/CD features.
 Future Goals:
-    1. Add containerization support (Docker/Kubernetes).
-    2. Provide visual dashboards for pipeline monitoring.
-    3. Enhance extensibility with plugin architecture.
+1. Add containerization support (Docker/Kubernetes).
+2. Provide visual dashboards for pipeline monitoring.
+3. Enhance extensibility with plugin architecture.
