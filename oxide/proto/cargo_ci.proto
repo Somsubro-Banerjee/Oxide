@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package cargo_ci;
+
+service CargoCi {
+    rpc CreateRepo (CreateRepoRequest) returns (CreateRepoResponse);
+}
+
+message CreateRepoRequest {
+    string project_name = 1;
+    string framework = 2;
+    string org = 3;
+}
+message CreateRepoResponse {
+    string repo_url = 1;
+}

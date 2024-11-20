@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "cargo_ci",
+    "cargo_cd",
+    "oxide"
+]
